@@ -4,3 +4,9 @@ Caro visitatore, benvenuto in questo repository. Qui troverai un po' di programm
 alcuni sono programmi che fanno delle operazioni basilari, altri invece operazioni un po' particolari, ma con un po' di fantasia, un po' di ingegno e un po' di impegno, i risultati arriveranno.
 
 E' tutto da Cicci Igwe.
+
+Se avete dei suggerimenti, fatemeli, io credo nel "Kaizen", il miglioramento continuo.
+
+
+Programmi:
+-Divisione (con ricorsione)
