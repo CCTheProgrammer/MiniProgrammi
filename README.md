@@ -7,8 +7,6 @@ Se avete dei suggerimenti, fatemeli, io credo nel "Kaizen", il miglioramento con
 
 E' tutto da Precious Chinyenakem Igwe, alias Cicci Igwe.
 
-Il 26 novembre si dà inizio a questo progetto.
-
 Programmi:
 - Divisione (con ricorsione)
-- Potenza (con ricorsione, WIP)
+- Potenza (con ricorsione)
