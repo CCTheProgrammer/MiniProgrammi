@@ -20,7 +20,7 @@ bool PalindromoRec(char* str, int len, int inizio, int fine, enum CaseSens c) {
 			}
 			else {            //nel caso il inizi-esimo car. e il fine-esimo car.
 							  //debbano essere uguali indip. dal fatto che l'uno e l'altro siano risp.
-							  //maiu. o minu., viceversa, entrambi maiuscoli o entrambi maiuscoli
+							  //maiu. e minu., viceversa, entrambi maiuscoli o entrambi maiuscoli
 				if (str[inizio] != str[fine] || toupper(str[inizio]) != toupper(str[fine])) {  //uso toupper per la conver. di
 																							   //caratteri minuscoli in caratteri maiuscoli
 					return false;
