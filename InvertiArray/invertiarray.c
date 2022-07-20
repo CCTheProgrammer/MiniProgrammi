@@ -9,10 +9,10 @@ void InvertiArrayRec(int v[], int len, int inizio, int fine) {
 			v[fine] = t;         //t che contiene l'inizi-esimo elemento
 								 //prende il posto del fine-esimo elemento
 			InvertiArrayRec(v, len, inizio + 1, fine - 1); //la fz. chiama se' stessa scorrendo contemporaneamente
-														   //il vettore in avanti, incr. di 1 inizio e
-														   //all'indietro, decr. di 1 fine
+				             				//il vettore in avanti, incr. di 1 inizio e
+				             				//all'indietro, decr. di 1 fine
 		}
-		return; // se inizio e fine si coincidono l'operazione dell'inversione ordine elementi del vettore
+		return; // se inizio e fine coincidono, l'operazione dell'inversione ordine elementi del vettore
 				// si conclude e si torna alla fz. di controllo senza ritornare niente essendo una fz. void
 	}
 	return;   //se la var. fine non e' minore della lunghezza, non viene eseguita l'inversione ordine elementi del
@@ -25,9 +25,9 @@ void InvertiArray(int v[], int len) {
 	}
 
 	InvertiArrayRec(v, len, 0, len - 1); //in caso contrario viene invocata dalla fz. di controllo
-										 //la fz. ricorsiva che svolge l'operazione principale
-										 //dell'inversione dell'ordine degli elementi del vettore parametro v,
-										 //inserendo opportunamente come parametri addizionali 0 e len-1
-										 //che permettono alla fz. ricorsiva il doppio scorrimento del vettore (normale e inverso)
-										 //che a loro volta permettono lo scambio tra l'inizi-esimo el. e il fine-esimo el.
+				             //la fz. ricorsiva che svolge l'operazione principale
+				             //dell'inversione dell'ordine degli elementi del vettore parametro v,
+				             //inserendo opportunamente come parametri addizionali 0 e len-1
+				             //che permettono alla fz. ricorsiva il doppio scorrimento del vettore (normale e inverso)
+				             //che a loro volta permettono lo scambio tra l'inizi-esimo el. e il fine-esimo el.
 }
