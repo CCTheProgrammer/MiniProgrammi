@@ -13,8 +13,8 @@ bool PalindromoRec(char* str, int len, int inizio, int fine, enum CaseSens c) {
 				}
 				else {
 					return PalindromoRec(str, len, inizio + 1, fine - 1, c); //si prosegue con il controllo
-					//fintanto che l'inizi-esimo caratttere e il fine-esimo carattere coincidono
-					//naturalmente con il doppio scorrimento simultaneo incr. di 1 inizio e decr. di 1 fine che
+					//fintanto che l'inizi-esimo caratttere e il fine-esimo carattere coincidono,
+					//naturalmente con il doppio scorrimento simultaneo, incr. di 1 inizio e decr. di 1 fine che
 					//risp. sono il contatore per lo scorrimento normale e il contatore per quello inverso
 				}
 			}
