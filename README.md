@@ -10,3 +10,8 @@ E' tutto da Precious Chinyenakem Igwe, alias Cicci Igwe.
 Programmi:
 - Divisione (con ricorsione)
 - Potenza (con ricorsione)
+- SommaCifre (con ricorsione)
+- InvertiArray (con ricorsione)
+- Palindromo (con ricorsione)
+- CombinazioneinPotenze (con ricorsione)
+(C) CI, 2022
