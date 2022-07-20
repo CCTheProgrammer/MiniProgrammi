@@ -1,21 +1,16 @@
 #include <stdlib.h>
 int CercaNumeroRec(int v[], int i, int len, int n) {
-	if (i == len - 1) {  //se il contatore i è uguale a len - 1
-		if (n == v[i]) { //se l'elemento che si cerca e'
-						 //l'ultimo elemento del vettore parametro
-			return 1;    //la funzione ricorsiva ritorna 1
+
+	if (i < len) {  //se i è minore della lunghezza len del vettore v
+		if (v[i] == n) {  //se è stato individuato l'elemento da trovare
+			return 1;     //la funzione ricorsiva ritorna 1
 		}
 		else {
-			return 0;    //altrimenti 0
+			return CercaNumeroRec(v, i + 1, len, n); //si prosegue con la ricerca
 		}
 	}
 
-	if (n == v[i]) {    //se l'elemento che si cerca si trova alla posizione
-						//da 0 a len - 2, la funzione ritorna 1
-		return 1;
-	}
-
-	return CercaNumeroRec(v, i + 1, len, n);  //altrimenti si continua con la ricerca dell'elemento
+	return 0;  //se la ricerca non è andata a buon fine, la fz ricorsiva ritorna 0
 }
 
 int CercaNumero(int v[], int len, int n) {
